@@ -1,0 +1,25 @@
+[package]
+name = "zkcat"
+version = "0.1.0"
+edition = "2021"
+description = "Zero-knowledge file viewer with redaction proofs"
+authors = ["Tanya tanyaarora@tutamail.com"]
+repository = "https://github.com/tanctl/zkcat"
+license = "Apache 2.0"
+keywords = ["zero-knowledge", "risc0", "privacy", "cryptography"]
+categories = ["command-line-utilities", "cryptography"]
+
+[[bin]]
+name = "zkcat"
+path = "src/main.rs"
+
+[dependencies]
+methods = { path = "../methods" }
+risc0-zkvm = { version = "^2.1.0" }
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+clap = { version = "4.0", features = ["derive"] }
+colored = "2.0"
+anyhow = "1.0"
+bincode = "1.3"
+sha2 = "0.10"
+hex = "0.4"
