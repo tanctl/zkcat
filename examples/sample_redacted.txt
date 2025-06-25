@@ -1,0 +1,10 @@
+Hello, this is a public note.
+***REDACTED***
+Nothing to redact in this line, all clear.
+***REDACTED***
+This file contains sensitive information.
+Just a random comment about cats and pizza.
+***REDACTED***
+That was a decoy, or was it?
+***REDACTED***
+Final line, seems harmless enough.
